@@ -1,30 +1,49 @@
-2023-04-26 10:53:43 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
-2023-04-26 10:53:44 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.4.1 with PID 33372 (G:\HDFC_Spring\Employee_ManagementSystem\bin\main started by HP in G:\HDFC_Spring\Employee_ManagementSystem)
-2023-04-26 10:53:44 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
-2023-04-26 10:53:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-04-26 10:53:46 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 119 ms. Found 1 JPA repository interfaces.
-2023-04-26 10:53:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8485 (https)
-2023-04-26 10:53:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8485"]
-2023-04-26 10:53:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2023-04-26 10:53:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
-2023-04-26 10:53:47 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2023-04-26 10:53:47 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3184 ms
-2023-04-26 10:53:47 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2023-04-26 10:53:47 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
-2023-04-26 10:53:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2023-04-26 10:53:52 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@144ee8a7
-2023-04-26 10:53:52 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2023-04-26 10:53:52 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
-2023-04-26 10:53:55 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2023-04-26 10:53:55 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-04-26 10:53:55 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-04-26 10:53:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8485"]
-2023-04-26 10:53:58 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8485], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/G:/HDFC_Spring/Employee_ManagementSystem/keystore.p12] using alias [mydomain] and with trust store [null]
-2023-04-26 10:53:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8485 (https) with context path ''
-2023-04-26 10:53:59 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 16.245 seconds (process running for 20.306)
-2023-04-26 10:55:26 [https-jsse-nio-8485-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-26 10:55:26 [https-jsse-nio-8485-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2023-04-26 10:55:26 [https-jsse-nio-8485-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2023-04-26 10:55:26 [https-jsse-nio-8485-exec-6] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.hdfc.capstone.employee.controller.EmployeeController
-2023-04-26 10:55:26 [https-jsse-nio-8485-exec-6] INFO  c.h.c.e.c.EmployeeController - Record of EmployeeID(1105)is called
-2023-04-26 10:56:22 [https-jsse-nio-8485-exec-4] INFO  c.h.c.e.c.EmployeeController - Record of EmployeeID(1105)is called
+2023-04-27 00:00:04 [https-jsse-nio-8485-exec-3] INFO  c.h.c.e.c.EmployeeController - Record of EmployeeID(1108)is called
+2023-04-27 00:00:27 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-27 00:00:27 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8485"]
+2023-04-27 00:00:27 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-04-27 00:00:27 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-27 00:00:27 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8485"]
+2023-04-27 00:00:27 [RMI TCP Connection(5)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8485"]
+2023-04-27 00:00:27 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 00:00:27 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-27 00:00:27 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-04-27 16:53:49 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-04-27 16:53:49 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.4.1 with PID 25220 (G:\HDFC_Spring\Employee_ManagementSystem\bin\main started by HP in G:\HDFC_Spring\Employee_ManagementSystem)
+2023-04-27 16:53:49 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-27 16:53:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-27 16:53:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2023-04-27 16:53:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8485 (https)
+2023-04-27 16:53:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8485"]
+2023-04-27 16:53:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-27 16:53:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-04-27 16:53:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-27 16:53:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2573 ms
+2023-04-27 16:53:52 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-27 16:53:52 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-27 16:53:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-27 16:53:55 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18c820d2
+2023-04-27 16:53:55 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-27 16:53:55 [main] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-04-27 16:53:56 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-27 16:53:56 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 16:53:57 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-27 16:53:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8485"]
+2023-04-27 16:53:58 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8485], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/G:/HDFC_Spring/Employee_ManagementSystem/keystore.p12] using alias [mydomain] and with trust store [null]
+2023-04-27 16:53:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8485 (https) with context path ''
+2023-04-27 16:53:58 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 10.015 seconds (process running for 11.525)
+2023-04-27 16:57:42 [https-jsse-nio-8485-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-27 16:57:42 [https-jsse-nio-8485-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-27 16:57:42 [https-jsse-nio-8485-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-04-27 16:57:42 [https-jsse-nio-8485-exec-4] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.hdfc.capstone.employee.controller.EmployeeController
+2023-04-27 16:57:42 [https-jsse-nio-8485-exec-4] INFO  c.h.c.e.c.EmployeeController - Record of EmployeeID(1102)is called
+2023-04-27 17:00:06 [https-jsse-nio-8485-exec-7] INFO  c.h.c.e.c.EmployeeController - Record of EmployeeID(1105)is called
+2023-04-27 17:01:55 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-27 17:01:56 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8485"]
+2023-04-27 17:01:56 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-04-27 17:01:56 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-27 17:01:57 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8485"]
+2023-04-27 17:01:57 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8485"]
+2023-04-27 17:01:57 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-27 17:01:58 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-27 17:01:58 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

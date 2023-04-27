@@ -47,15 +47,17 @@ public class EmployeeServiceImp implements IEmployeeService {
 		}
 	}
 	
+	
+	// Encyrption for date of birth
 	public static String encrypt(String strToEncrypt) throws Exception {
 		byte[] iv = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-		IvParameterSpec ivspec = new IvParameterSpec(iv);
+		IvParameterSpec ivspecifications = new IvParameterSpec(iv);
 		SecretKeyFactory factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA256");
 		KeySpec spec = new PBEKeySpec(SECRET_KEY.toCharArray(), SALTVALUE.getBytes(), 65536, 256);
 		SecretKey tmp = factory.generateSecret(spec);
 		SecretKeySpec secretKey = new SecretKeySpec(tmp.getEncoded(), "AES");
 		Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
-		cipher.init(Cipher.ENCRYPT_MODE, secretKey, ivspec);
+		cipher.init(Cipher.ENCRYPT_MODE, secretKey, ivspecifications);
 		/* Returns encrypted value. */
 		return Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(StandardCharsets.UTF_8)));
 
